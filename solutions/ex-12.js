@@ -8,5 +8,5 @@ module.exports = function Spy(target, method) {
         obj.count++;
         fn.apply(this, arguments);
     };
-    return obj;
-}
+    return obj;    
+};
